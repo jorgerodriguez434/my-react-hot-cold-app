@@ -36,7 +36,7 @@ class Game extends React.Component {
       this.setState({
         feedback: "hot!"
       });
-    } else if (input == 7) {
+    } else if (input === 7) {
       this.setState({
         feedback: "You won!"
       });
@@ -64,13 +64,13 @@ class Game extends React.Component {
   } //render
 } //class
 
-function SubmitButton(props) {
+/*function SubmitButton(props) {
   return (
     <button className="submit-button" type="submit" onClick={props.onClick}>
       Submit
     </button>
   );
-}
+}*/
 
 function FeedBack(props) {
   return (
